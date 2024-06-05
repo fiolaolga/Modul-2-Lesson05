@@ -72,7 +72,7 @@ li{
   }
 
  .menu__logo{ 
-    background-image: url("../img/лого.svg");
+    background-image:url("../img/logo.svg");
     background-size: contain ;
     background-repeat: no-repeat;
     width: 189px;
@@ -359,12 +359,12 @@ li{
     border-radius: 16px;
     margin-right: 5px;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 8px 8px;
+    background-position: center center;   
 }
 .radio__item:checked+label::before{    
     background-color: #1A71CE; 
     background-image:url("../img/buttonradio.svg ");
+    background-size: 8px 8px;
 }
 
 .button__item{
