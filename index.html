@@ -6,40 +6,36 @@
     <title>Lesson 05</title>
     <meta name="description" content="Описание страницы сайта">
     <meta name="keywords" content="ключевые,слова,страницы">
-   
-    
-
+      
     <!--OG tags-->
     <meta property="og.title" content="Погружение в верстку" >
     <meta property="og.description" content="Описание страницы сайта">
     <meta property="og.type" content="article">
     <meta property="og.image" content="https://реальныйПутьВСети">
-    <meta property="og.site_name" content="TEST">
+    <meta property="og.site_name" content="TEST">  
 
-<!--Additional OG tags-->
-<meta name="og.email" content="me@example.com"/>
-<meta name="og.phone" content="650-123-4567"/>
+     <!--Additional OG tags-->
+     <meta name="og.email" content="me@example.com"/>
+     <meta name="og.phone" content="650-123-4567"/>
 
+     <!--Css-->
+     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> 
 
-<!--Css-->
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> 
+     <link rel="icon" href="img/favicon.png" type="image/png">
+     <link rel="stylesheet" href="css/main.css">
 
-
-<link rel="icon" href="img/favicon.png" type="image/png">
-<link rel="stylesheet" href="css/main.css">
-
-<!--JS-->
-<script src="js/main.js" defer></script>
-</head>
-<!--block-name__elem-name_mod-name_mod-val-->
+    <!--JS-->
+    <script src="js/main.js" defer></script>
+        </head>
+    <!--block-name__elem-name_mod-name_mod-val-->
 <body>
 
     <header class="header-section" id="header-section">
         <div class="container">            
-       <div class="menu">
-        <a href ="#" class="menu__logo"></a>
-        <nav class="menu__nav">
+         <div class="menu">
+          <a href ="#" class="menu__logo"></a>
+           <nav class="menu__nav">
             <ul class="menu__list">
                 <li class="menu__item"><a href="#header-section">Главная</a></li>
                 <li class="menu__item"><a href="#table-section">Таблицы</a></li>
@@ -47,8 +43,8 @@
                 <li class="menu__item"><a href="#form-section">Форма</a></li>
                 <li class="menu__item"><a href="#footer-section">Контакты </a></li>
             </ul>
-        </nav>
-        </div>
+           </nav>
+         </div>
         </div>
        
     </header>
@@ -63,9 +59,9 @@
                 <div class="offer-img-wrapper">
                     <img class="offer__img" src="img/illustration.svg" alt="stady">
                     <img src="img/brecket.png" alt="brecket" class="offer__bg">
-                </div>               
-            </div>
-        </section>
+            </div>               
+        </div>
+    </section>
 
         <section class="table-section" id="table-section">
             <div class="container">
@@ -96,17 +92,18 @@
                     <td class="table__item">Свобода</td>
                     <td class="table__item">Серия фильмов 'The Matrixk</td>
                 </tr>
-            </table>
-        </div>
-                    </div>
-                </section>  
+                  </table>
+            </div>
+                 </div>
+        </section> 
+
     <section class="video-section" id="video-section">
         <div class="container">
             <h2 class="section__title">Приятного просмотра</h2>
             <div class="video-wrappen">
                 <iframe width="700" height="380" src="https://www.youtube.com/embed/59y9ajeynLg?si=1NY6fIm1zNx44Vyd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
             </div>          
-            </div>
+        </div>
     </section> 
       
     <section class="form-section" id="form-section">
@@ -137,8 +134,8 @@
                                 <input type="radio" class="radio__item" name="radio" id="escape" value="escape"checked >
                                 <label for="escape" class="radio__name">Пропустить</label>
                             </div>
-                        </div>
-                        <div class="checkbox-wrapper">
+                            </div>
+                            <div class="checkbox-wrapper">
                             <div>
                                 <input type="checkbox" class="checkbox__item" name="add" id="add" value="add" checked>
                                 <label for="add" class="checkbox__name">Добавить</label>
@@ -148,7 +145,7 @@
                                 <label for="later" class="checkbox__name">Напомнить позже</label>
                             </div>
                             </div>
-                             <div class="button-wrapper">
+                            <div class="button-wrapper">
                             <div>
                                 <input type="radio" class="button__item" name="switch" id="on" checked value="on">
                                 <label for="on">Включить</label>
@@ -157,13 +154,11 @@
                                 <input type="radio" class="button__item" name="switch" id="off" checked value="off">
                                 <label for="off">Выключить</label>
                             </div>
-
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-
     </section>
            
     <footer class="footer-section" id="footer-section">
@@ -177,14 +172,11 @@
                         <li class="menu__footer"><a href="#video-section">Видео</a></li>
                         <li class="menu__footer"><a href="#form-section">Форма</a></li>
                         <li class="menu__footer"><a href="#footer-section">Контакты </a></li>
-                    </ul>
-                   
+                    </ul>                   
                 </nav>
                 <button class="offer__btn offer__btn_footer">Перейти к практике</button>
-
-               
-                </div>             
-               </div>
+            </div>             
+        </div>
     </footer>
 </body>
 </html>
